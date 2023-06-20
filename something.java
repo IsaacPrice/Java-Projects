@@ -1,18 +1,24 @@
-import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+class human {
+    String name;
+    int age;
+    double height;
+
+    // Class initilizer
+    public human(String Name, int Age, double Height) {
+        name =
+    }
+
+}
 
 public class something {
-    public static void main(String[] args) {
-        Frame window = new Frame();
+    public static void hello() {
+        System.out.println("Hello, world!");
+    }
 
-        window.setVisible(true);
-        window.setSize(300,200);
-        window.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                System.exit(0);
-            }
-        });
+    public static void main(String[] args) {
+        int[] numbers = new int[10];
+        numbers[0] = 50;
+
+        hello();
     }
 }
